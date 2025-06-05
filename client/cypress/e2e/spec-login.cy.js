@@ -12,7 +12,7 @@ describe('Testes de login', () => {
         cy.clearLocalStorage(); // Limpa o armazenamento local antes de cada teste
     });
 
-    it('Login com sucesso', () => {
+    it('Realizar login com sucesso como Admin', () => {
         loginPage.acessaPaginaInicial();
         loginPage.realizaLogin(dadosUsuario.usuarioSucesso.email, dadosUsuario.usuarioSucesso.password);
     });

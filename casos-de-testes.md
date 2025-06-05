@@ -2,8 +2,8 @@
 
 ### Cenário 01: Realizar login
 
-#### CT01: Realizar login com sucesso
-- Pré-condições: ter os dados de acesso para realizar login
+#### CT01: Realizar login com sucesso como Admin
+- Pré-condições: ter os dados de acesso de Admin para realizar login
 - Passos:  
     1. Na página inicial, clicar no botão “Login”;  
     2. No modal aberto, preencher o campo “Email” com o e-mail válido; 
