@@ -22,3 +22,14 @@
     4. Clicar no botão “Sign In”.
 - Resultado esperado: deve ser exibida uma mensagem de erro sobre os dados inválidos.
 - Resultado obtido: OK
+
+<br>
+
+### Cenário 02: Realizar logout
+
+#### CT03: Realizar logout do app com sucesso
+- Pré-condições: ter realizado login com sucesso no app
+- Passos:
+    1. Na navbar do app, clicar no botão "Logout"
+- Resultado esperado: o logout deve ter sido feito com sucesso 
+- Resultado obtido: OK
