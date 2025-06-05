@@ -10,7 +10,7 @@
     3. No campo “Password”, preencher o campo com a senha válida;
     4. Clicar no botão “Sign In”.
 - Resultado esperado: o login deve ter sido realizado.
-- Resultado obtido: 
+- Resultado obtido: OK
 
 
 #### CT02: Login inválido
@@ -21,4 +21,4 @@
     3. No campo “Password”, preencher o campo com a senha inválida;
     4. Clicar no botão “Sign In”.
 - Resultado esperado: deve ser exibida uma mensagem de erro sobre os dados inválidos.
-- Resultado obtido: 
+- Resultado obtido: OK
