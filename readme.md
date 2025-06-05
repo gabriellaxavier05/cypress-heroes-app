@@ -28,6 +28,10 @@ npm run dev
 This will start both the client and server apps in dev mode. The site will be
 available at http://localhost:3000.
 
+## Rodar o Cypress
+
+Para abrir o Cypress, acesse o diretório da pasta "client". Tendo-a acessado pelo bash/terminal, digite o comando ```npx cypress open``` para abrir o Cypress e executar os testes automatizados das features.
+
 ## App Overview
 
 The Cypress Heroes app consists of a frontend client app written in React that
@@ -56,3 +60,7 @@ npm run resetdb
 The client app uses an environment variable to know what the URL is for the
 backend api named `VITE_API_URL`. It defaults to "http://localhost:3001" for use
 in dev mode, and should be overriden in other environments/modes.
+
+## Outros documentos .md do repositório
+- ```casos-de-testes.md``` -> Cenários e casos de testes das features testadas do Cypress Heroes
+- ```sugestoes-melhorias.md```-> Sugestões de melhorias para o app.
