@@ -1,8 +1,8 @@
 ## Cenários e casos de testes das funcionalidades - Cypress Heroes
 
-### Cenário 01: Realizar login
+### Cenário 01: Realizar login 👤
 
-#### CT01: Realizar login com sucesso como Admin
+#### CT01: Realizar login com sucesso como Admin ✅
 - Pré-condições: ter os dados de acesso de Admin para realizar login
 - Passos:  
     1. Na página inicial, clicar no botão “Login”;  
@@ -13,7 +13,7 @@
 - Resultado obtido: OK
 
 
-#### CT02: Login inválido
+#### CT02: Login inválido ❌
 - Pré-condições: ter dados inválidos de acesso para realizar login
 - Passos
     1. Na página inicial, clicar no botão “Login”;
@@ -25,7 +25,7 @@
 
 <br>
 
-### Cenário 02: Realizar logout
+### Cenário 02: Realizar logout ⬅️
 
 #### CT03: Realizar logout do app com sucesso
 - Pré-condições: ter realizado login com sucesso no app
@@ -36,9 +36,9 @@
 
 <br>
 
-### Cenário 03: Cadastrar herói
+### Cenário 03: Cadastrar herói 🦸🏻
 
-#### CT04: Cadastrar herói com sucesso
+#### CT04: Cadastrar herói com sucesso ✅
 - Pré-condições: estar logado no app como Admin
 - Passos:
     1. Clicar no botão "Create New Hero"
@@ -50,4 +50,15 @@
     7. Anexar uma imagem como avatar do herói no campo "Avatar"
     8. Clicar no botão "Submit" para criar o herói
 - Resultado esperado: o herói deve ser cadastrado e deverá aparecer na listagem da página "Heroes", exibindo seu nome, preço, número de fãs, número de favoritos dados e seus poderes
+- Resultado obtido: 
+
+#### CT05: Cadastro de herói inválido ❌
+- Pré-condições: estar logo no app como Admin
+- Passos:
+    1. Clicar no botão "Create New Hero"
+    2. Preencher o campo "Fans" com um número de fãs que o herói deve possuir
+    3. Preencher o campo "Saves" com um número de favoritos que o herói recebeu
+    4. Anexar uma imagem como avatar do herói no campo "Avatar"
+    5. Clicar no botão "Submit" para criar o herói
+- Resultado esperado: devem ser exibidas mensagens de erro de que o preenchimento dos campos "Name", "Price" e "Powers" são obrigatórios.
 - Resultado obtido: 
