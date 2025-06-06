@@ -50,7 +50,7 @@
     7. Anexar uma imagem como avatar do herói no campo "Avatar"
     8. Clicar no botão "Submit" para criar o herói
 - Resultado esperado: o herói deve ser cadastrado e deverá aparecer na listagem da página "Heroes", exibindo seu nome, preço, número de fãs, número de favoritos dados e seus poderes
-- Resultado obtido: 
+- Resultado obtido: OK
 
 #### CT05: Cadastro de herói inválido ❌
 - Pré-condições: estar logo no app como Admin
