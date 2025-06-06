@@ -12,7 +12,10 @@ describe('Testes de cadastro de herói', () => {
         campoPrice: "[name='price']",
         campoFans: "[name='fans']",
         campoSaves: "[name='saves']",
-        campoPowers: "[name='powers']",
+        campoPowers: "[data-cy='powersSelect']",
+        campoAvatarHeroi: "[type='file']",
+        btnSubmitCadHeroi: 'button',
+        nomeHeroiCadastrado: "[data-cy='name']"
     }
     
     beforeEach(() => {
@@ -27,6 +30,9 @@ describe('Testes de cadastro de herói', () => {
         cy.get(seletoresCadHeroi.campoPrice).type('50');
         cy.get(seletoresCadHeroi.campoFans).type('47');
         cy.get(seletoresCadHeroi.campoSaves).type('49');
-
+        cy.get(seletoresCadHeroi.campoPowers).select(['4', '9']); // seleciona os poderes do herói (invisibilidade e super velocidade)
+        cy.get(seletoresCadHeroi.campoAvatarHeroi).selectFile('cypress/fixtures/super-ratinha.png'); // seleciona o arquivo de avatar do herói
+        cy.get(seletoresCadHeroi.btnSubmitCadHeroi).contains('Submit').click();
+        cy.get(seletoresCadHeroi.nomeHeroiCadastrado).should('contain', 'Super Ratinha'); // verifica se o herói foi cadastrado com sucesso
     });
 });
