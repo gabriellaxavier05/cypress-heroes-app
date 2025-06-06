@@ -12,3 +12,15 @@
 - Evidências:
         
     ![Bug contador negativo campo "Saves"](imgs_bugs/bug01_cont_Saves.png)
+
+<br>
+
+#### Bug 02: Campo "Powers" não permite múltiplas seleções sem usar a tecla Ctrl
+- Descrição: Ao tentar selecionar múltiplas opções no campo "Powers" da tela de cadastro de herói, o sistema não permite outras opções selecionadas se não usar a tecla Ctrl do teclado.
+- Passos para execução do bug:
+    1. Clicar em uma opção do campo "Powers"
+    2. Apertar a tecla Ctrl do teclado e clicar em outra opção do mesmo combo
+- Resultado obtido: As opções selecionadas ficam em azul
+- Evidências: 
+
+    ![Bug campo "Powers"](imgs_bugs/bug02_campo_Powers.png)
