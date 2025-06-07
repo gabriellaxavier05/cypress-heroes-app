@@ -1,0 +1,13 @@
+{
+    "heroiSucesso": {
+        "name": "Super Ratinha",
+        "price": 50,
+        "fans": 47,
+        "saves": 49
+    },
+    "heroiFalha": {
+        "name": "Super Sopradora",
+        "fans": 38,
+        "saves": 10
+    }
+}

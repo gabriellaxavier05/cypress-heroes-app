@@ -53,12 +53,13 @@
 - Resultado obtido: OK
 
 #### CT05: Cadastro de herói inválido ❌
-- Pré-condições: estar logo no app como Admin
+- Pré-condições: estar logado no app como Admin
 - Passos:
     1. Clicar no botão "Create New Hero"
-    2. Preencher o campo "Fans" com um número de fãs que o herói deve possuir
-    3. Preencher o campo "Saves" com um número de favoritos que o herói recebeu
-    4. Anexar uma imagem como avatar do herói no campo "Avatar"
-    5. Clicar no botão "Submit" para criar o herói
+    2. Preencher o campo "Name" com um nome para o herói a ser cadastrado
+    3. Preencher o campo "Fans" com um número de fãs que o herói deve possuir
+    4. Preencher o campo "Saves" com um número de favoritos que o herói recebeu
+    5. Anexar uma imagem como avatar do herói no campo "Avatar"
+    6. Clicar no botão "Submit" para criar o herói
 - Resultado esperado: devem ser exibidas mensagens de erro de que o preenchimento dos campos "Name", "Price" e "Powers" são obrigatórios.
-- Resultado obtido: 
+- Resultado obtido: OK
