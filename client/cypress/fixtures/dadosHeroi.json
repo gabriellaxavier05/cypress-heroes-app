@@ -9,5 +9,9 @@
         "name": "Super Sopradora",
         "fans": 38,
         "saves": 10
+    },
+    "edicaoHeroi": {
+        "name": "Super Garota Voadora",
+        "price": 38
     }
 }
