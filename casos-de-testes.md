@@ -11,7 +11,11 @@
     4. Clicar no botão “Sign In”.
 - Resultado esperado: o login deve ter sido realizado.
 - Resultado obtido: OK
-
+- Evidências:
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT01.png" alt="Resultado CT01" height="500">
+</p>
 
 #### CT02: Login inválido ❌
 - Pré-condições: ter dados inválidos de acesso para realizar login
@@ -22,6 +26,11 @@
     4. Clicar no botão “Sign In”.
 - Resultado esperado: deve ser exibida uma mensagem de erro sobre os dados inválidos.
 - Resultado obtido: OK
+- Evidências: 
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT02.png" alt="Resultado CT02" height="500">
+</p>
 
 <br>
 
@@ -33,6 +42,11 @@
     1. Na navbar do app, clicar no botão "Logout"
 - Resultado esperado: o logout deve ter sido feito com sucesso 
 - Resultado obtido: OK
+- Evidências:
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT03.png" alt="Resultado CT03" height="500">
+</p>
 
 <br>
 
