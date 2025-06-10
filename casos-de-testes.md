@@ -63,3 +63,55 @@
     6. Clicar no botão "Submit" para criar o herói
 - Resultado esperado: devem ser exibidas mensagens de erro de que o preenchimento dos campos "Name", "Price" e "Powers" são obrigatórios.
 - Resultado obtido: OK
+
+<br>
+
+### Cenário 04: Contratar herói 💰
+
+#### CT06: Contratar herói com sucesso ✅
+- Pré-condições: estar logado como Admin
+- Passos:
+    1. Na tela "Heroes", clicar no botão com ícone "🪙" de um herói escolhido
+    2. Clicar no botão "Yes" do modal aberto da contratação
+- Resultado esperado: o contador "Saves" do herói escolhido deve ser atualizado para um número maior que o anterior
+- Resultado obtido: OK
+- Evidências:  
+
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT06.png" alt="Resultado CT06" height="500">
+</p>
+
+#### CT07: Contratação de herói inválida ❌
+- Pré-condições: não estar logado na aplicação
+- Passos:
+    1. Na tela "Heroes", clicar no botão com ícone "🪙" de um herói escolhido
+    2. Clicar no botão "Yes" do modal aberto da contratação
+- Resultado esperado: Uma mensagem informando que é preciso estar logado para fazer a contratação deve ser exibida
+- Resultado obtido: OK
+- Evidências:
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT07.png" alt="Resultado CT07" height="500">
+</p>
+
+<br> 
+
+### Cenário 05: Curtir herói 👍🏼
+
+#### CT08: Curtir herói com sucesso ✅
+- Pré-condições: estar logado como Admin
+- Passos:
+    1. Na tela "Heroes", clicar no botão com ícone "👍🏼" de um herói escolhido
+- Resultado esperado: a curtida no herói deve ser dada e o contador de curtidas deverá ser atualizado para um número maior que o anterior.
+- Resultado obtido:
+- Evidências:
+
+
+#### CT09: Curtida inválida de herói ❌
+- Pré-condições: Não estar logado na aplicação
+- Passos:
+    1. Na tela "Heroes", clicar  botão com ícone "👍🏼" de um herói escolhido
+- Resultado esperado: Uma mensagem informando que é preciso estar logado para curtir o herói escolhido deve ser exibida
+- Resultado obtido: 
+- Evidências: 
