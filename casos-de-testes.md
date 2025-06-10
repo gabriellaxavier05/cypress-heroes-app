@@ -136,8 +136,12 @@
     3. Alterar o preço de contratação do herói no campo "Price"
     4. Clicar no botão "Submit"
 - Resultado esperado: o nome e o preço de contração do herói deverão ser alterados com sucesso.
-- Resultado obtido:
+- Resultado obtido: OK
 - Evidências:
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT10.png" alt="Resultado CT10" height="500">
+</p>
 
 <br>
 
