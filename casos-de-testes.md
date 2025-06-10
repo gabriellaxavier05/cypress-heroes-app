@@ -51,6 +51,11 @@
     8. Clicar no botão "Submit" para criar o herói
 - Resultado esperado: o herói deve ser cadastrado e deverá aparecer na listagem da página "Heroes", exibindo seu nome, preço, número de fãs, número de favoritos dados e seus poderes
 - Resultado obtido: OK
+- Evidências:
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT04.png" alt="Resultado CT04" height="500">
+</p>
 
 #### CT05: Cadastro de herói inválido ❌
 - Pré-condições: estar logado no app como Admin
@@ -63,6 +68,11 @@
     6. Clicar no botão "Submit" para criar o herói
 - Resultado esperado: devem ser exibidas mensagens de erro de que o preenchimento dos campos "Name", "Price" e "Powers" são obrigatórios.
 - Resultado obtido: OK
+- Evidências:
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT05.png" alt="Resultado CT05" height="500">
+</p>
 
 <br>
 
@@ -76,11 +86,7 @@
 - Resultado esperado: o contador "Saves" do herói escolhido deve ser atualizado para um número maior que o anterior
 - Resultado obtido: OK
 - Evidências:  
-
-<br>
-<p style="text-align: center">
-    <img src="imgs-resultados-CTs/resultado-CT06.png" alt="Resultado CT06" height="500">
-</p>
+c
 
 #### CT07: Contratação de herói inválida ❌
 - Pré-condições: não estar logado na aplicação

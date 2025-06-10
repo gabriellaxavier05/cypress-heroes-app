@@ -15,7 +15,7 @@ describe('Testes de cadastro de herói', () => {
         loginPage.realizaLogin(dadosUsuario.usuarioSucesso.email, dadosUsuario.usuarioSucesso.password); // realiza o login com dados válidos
     });
 
-    it('Realizar cadastro de herói com sucesso', () => {
+    it.only('Realizar cadastro de herói com sucesso', () => {
         cadastroHeroiPage.acessaTelaCadastroHeroi();
         cadastroHeroiPage.preencheCamposTxtCadHeroi({
             name: dadosHeroi.heroiSucesso.name,
@@ -29,7 +29,7 @@ describe('Testes de cadastro de herói', () => {
         cadastroHeroiPage.verificaHeroiCadastrado(dadosHeroi.heroiSucesso.name);
     });
 
-    it.only('Cadastro inválido de herói', () => {
+    it('Cadastro inválido de herói', () => {
         cadastroHeroiPage.acessaTelaCadastroHeroi();
         cadastroHeroiPage.preencheCamposTxtCadHeroi({
             name: dadosHeroi.heroiFalha.name,
