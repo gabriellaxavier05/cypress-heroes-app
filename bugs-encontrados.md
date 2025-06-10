@@ -10,9 +10,10 @@
     3. Clicar no botão "Submit"
 - Resultado obtido: o campo "Saves" fica com o contador negativo, sendo -1 e não 0 ou vazio (como fica o campo "Fans" quando este não recebe nenhum valor atribuído).
 - Evidências:
-        
-    ![Bug contador negativo campo "Saves"](imgs_bugs/bug01_cont_Saves.png)
-
+<br>
+<p style="text-align: center">
+    <img src="imgs_bugs/bug01_cont_Saves.png" alt="Bug contador 'Saves'" height="400">
+</p>
 <br>
 
 #### Bug 02: Campo "Powers" não permite múltiplas seleções sem usar a tecla Ctrl
@@ -22,5 +23,7 @@
     2. Apertar a tecla Ctrl do teclado e clicar em outra opção do mesmo combo
 - Resultado obtido: As opções selecionadas ficam em azul
 - Evidências: 
-
-    ![Bug campo "Powers"](imgs_bugs/bug02_campo_Powers.png)
+<br>
+<p style="text-align: center">
+    <img src="imgs_bugs/bug02_campo_Powers.png" alt="Bug campo 'Powers'" height="400">
+</p>
