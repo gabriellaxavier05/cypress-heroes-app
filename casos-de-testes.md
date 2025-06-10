@@ -115,3 +115,31 @@
 - Resultado esperado: Uma mensagem informando que é preciso estar logado para curtir o herói escolhido deve ser exibida
 - Resultado obtido: 
 - Evidências: 
+
+<br>
+
+### Cenário 06: Editar informações do herói ✏️
+
+#### CT10: Editar informações do herói com sucesso ✅
+- Pré-condições: estar logado como Admin
+- Passos:
+    1. Na tela "Heroes", clicar no botão com ícone "✏️" de um herói escolhido
+    2. Na tela de edição do herói escolhido, alterar o seu nome no campo "Name"
+    3. Alterar o preço de contratação do herói no campo "Price"
+    4. Clicar no botão "Submit"
+- Resultado esperado: o nome e o preço de contração do herói deverão ser alterados com sucesso.
+- Resultado obtido:
+- Evidências:
+
+<br>
+
+### Cenário 07: Excluir herói 🗑️
+
+#### CT11: Excluir herói com sucesso ✅
+- Pré-condições: estar logado como Admin
+- Passos:
+    1. Na tela "Heroes", clicar no botão com ícone "🗑️" de um herói escolhido
+    2. No modal de confirmação de exclusão, clicar no botão "Yes"
+- Resultado esperado: O herói escolhido deverá ser excluído com sucesso, deixando de aparecer na listagem de heróis cadastrados.
+- Resultado obtido: 
+- Evidências:
