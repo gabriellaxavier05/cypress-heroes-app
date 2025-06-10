@@ -104,8 +104,12 @@
 - Passos:
     1. Na tela "Heroes", clicar no botão com ícone "👍🏼" de um herói escolhido
 - Resultado esperado: a curtida no herói deve ser dada e o contador de curtidas deverá ser atualizado para um número maior que o anterior.
-- Resultado obtido:
-- Evidências:
+- Resultado obtido: OK
+- Evidências: 
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT08.png" alt="Resultado CT08" height="500">
+</p>
 
 
 #### CT09: Curtida inválida de herói ❌
@@ -113,8 +117,12 @@
 - Passos:
     1. Na tela "Heroes", clicar  botão com ícone "👍🏼" de um herói escolhido
 - Resultado esperado: Uma mensagem informando que é preciso estar logado para curtir o herói escolhido deve ser exibida
-- Resultado obtido: 
+- Resultado obtido: OK
 - Evidências: 
+<br>
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT09.png" alt="Resultado CT09" height="500">
+</p>
 
 <br>
 
