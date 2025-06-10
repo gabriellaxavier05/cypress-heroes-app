@@ -173,5 +173,8 @@ c
     1. Na tela "Heroes", clicar no botão com ícone "🗑️" de um herói escolhido
     2. No modal de confirmação de exclusão, clicar no botão "Yes"
 - Resultado esperado: O herói escolhido deverá ser excluído com sucesso, deixando de aparecer na listagem de heróis cadastrados.
-- Resultado obtido: 
+- Resultado obtido: OK
 - Evidências:
+<p style="text-align: center">
+    <img src="imgs-resultados-CTs/resultado-CT11.png" alt="Resultado CT11" height="500">
+</p>
