@@ -9,3 +9,4 @@ Identificador | Melhoria | Descrição | Feature relacionada
 5 | Mensagem de edição de herói realizada com sucesso | Sempre que as informações de um herói forem atualizadas na tela de edição, exibir mensagem na tela confirmando a operação realizada com sucesso | Editar informações do herói
 6 | Mensagem de like dado com sucesso em herói | Exibir mensagem de ação bem sucedida após curtir herói. O contador de fãs do herói poderia mudar de cor brevemente (talvez para verde) para o usuário ter noção da atualização | Curtir herói
 7 | Mensagem de exclusão de herói realizada com sucesso | Sempre que um herói fosse excluído, o sistema deveria exibir uma mensagem de que a exclusão fora feita com sucesso, para que o usuário ficasse ciente do fato | Excluir herói
+8 | Verificação de cadastro de herói com o mesmo nome | O sistema deveria incluir uma verificação para não permitir que sejam cadastrados heróis com o mesmo nome | Cadastro de herói
