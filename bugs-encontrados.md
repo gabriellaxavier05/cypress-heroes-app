@@ -27,3 +27,18 @@
 <p style="text-align: center">
     <img src="imgs_bugs/bug02_campo_Powers.png" alt="Bug campo 'Powers'" height="400">
 </p>
+<br>
+
+#### Bug 03: Cadastro de heróis com mesmo nome
+- Descrição: A aplicação está permitindo o cadastro de heróis com mesmo nome de outro já cadastrado.
+- Passos para execução do bug:
+    1. Acessar a tela de cadastro
+    2. Preencher o campo "Name" com um nome de um herói já cadastrado
+    3. Prencher os outros campos obrigatórios
+    4. Clicar no botão "Submit"
+- Resultado obtido: heróis cadastrados com o mesmo nome.
+- Evidências:
+<br>
+<p style="text-align: center">
+    <img src="imgs_bugs/bug03_herois_mesmo_nome.png" alt="Bug heróis com o mesmo nome" height="400">
+</p>
